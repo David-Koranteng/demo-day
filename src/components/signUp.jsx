@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles.css";
-import iq from "./images/iq.jpg";
+import cloud from "./images/cloud.svg";
 
 const SignUp = () => {
   return (
@@ -10,7 +10,7 @@ const SignUp = () => {
         <Row className="signup-row">
           <Col md="6">
             <div>
-              <img src={iq} alt="#" />
+              <img src={cloud} alt="#" />
             </div>
           </Col>
           <Col md="6">

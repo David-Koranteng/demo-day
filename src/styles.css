@@ -74,6 +74,11 @@
     background: rgb(232, 248, 243);
 }
 
+.contact-data input:hover {
+    border: 3px solid rgb(50, 161, 205);
+    box-shadow: 6px 5px 10px;
+}
+
 textarea {
     margin-top: 30px;
     width: 80%;
@@ -103,6 +108,24 @@ footer p:hover {
 .footlogo {
     display: flex;
     justify-content: space-around;
+}
+
+.footlogo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.footlogo img:hover{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:425px){
+    .footer p,.footer h3 {
+        text-align: center;
+    }
 }
 
 

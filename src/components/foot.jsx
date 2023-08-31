@@ -16,7 +16,7 @@ const Foot = () => {
 
               {/* socials images */}
               <div className='footlogo'>
-                 <img src='' alt='djasfk' />
+                 <img src={images.Twitter} alt='djasfk' />
                  <img src='' alt='djasfk' />
                  <img src='' alt='djasfk' />
               </div>
